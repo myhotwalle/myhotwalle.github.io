@@ -1,0 +1,5 @@
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^myhotwalle\.github.io$ [NC]
+RewriteRule ^(.*)$ http://ladger.azurewebsites.net/$1 [L,R=301]
